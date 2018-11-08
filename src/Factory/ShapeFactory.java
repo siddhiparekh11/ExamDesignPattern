@@ -5,7 +5,7 @@ package Factory;
  */
 public class ShapeFactory {
 
-    public Shape getShape(String type)
+    public static Shape getShape(String type)
     {
         Shape s=null;
         if(type.equals("Rectangle"))
